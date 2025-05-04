@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JZONE MT</title>
+
+  <!-- Kuunganisha CSS -->
+  <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Karibu kwenye JZONE MT</h1>
+    <div class="nav-links">
+      <a href="#motisha-upload">Pakia Motisha</a>
+      <a href="#motisha-gallery">Motisha Gallery</a>
+      <a href="#chat">Chat</a>
+    </div>
+  </header>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <h2>Profile Yako</h2>
+    <img class="profile-pic" src="profile-placeholder.jpg" alt="Profile Picture">
+    <p class="verified">✔ Verified</p>
+  </section>
+
+  <!-- Motivation Upload Section -->
+  <section id="motisha-upload">
+    <h2>Pakia Motisha</h2>
+    <form id="uploadForm">
+      <input type="file" name="motisha-file" accept="image/*,video/*,.txt" required>
+      <button type="submit">Pakia Kazi</button>
+    </form>
+  </section>
+
+  <!-- Motivation Gallery -->
+  <section id="motisha-gallery">
+    <h2>Motisha Gallery</h2>
+    <div class="motisha-item">
+      <img src="image-placeholder.jpg" alt="Motisha Image">
+      <div class="actions">
+        <button>Like</button>
+        <button>Comment</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chat Section -->
+  <section id="chat">
+    <h2>Chat na Wanachama Wengine</h2>
+    <div class="chat-box">
+      <div class="messages">
+        <p><strong>Admin:</strong> Karibu kwenye chat ya JZONE MT!</p>
+      </div>
+      <input type="text" placeholder="Andika ujumbe...">
+      <button>Send</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 JZONE MT - Haki zote zimehifadhiwa</p>
+  </footer>
+
+  <!-- Kuunganisha JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
